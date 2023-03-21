@@ -1577,6 +1577,11 @@ section {
   border: 1px solid #d5d7da;
   margin-bottom: 20px;
 }
+.serviceimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .service-details .services-list a {
   display: block;

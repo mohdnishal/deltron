@@ -2677,3 +2677,9 @@ section {
 .footer .footer-legal .credits a {
   color: var(--color-primary);
 }
+.whatsapp-button{
+  position: fixed;
+   
+    left: 17px;
+    bottom: 11px
+}

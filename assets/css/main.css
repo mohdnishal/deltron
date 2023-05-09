@@ -94,6 +94,23 @@ section {
 .section-header h2:before {
   margin: 0 15px 10px 0;
 }
+.download-pdf {
+  position: absolute;
+  /* top: -15%; */
+  right: 30px;
+  transform: translateY(-135%);
+  font-size: 30px;
+}
+
+.download-pdf a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.download-pdf a i {
+  margin-right: 5px;
+}
 
 .section-header h2:after {
   margin: 0 0 10px 15px;

@@ -66,6 +66,27 @@
   object-fit:cover;
   height: 72px;
 }
+.download-pdf {
+  position: absolute;
+  /* top: -15%; */
+  right: 30px;
+  transform: translateY(-135%);
+  font-size: 30px;
+}
+
+.download-pdf a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.download-pdf a i {
+  margin-right: 5px;
+}
+
+.refernces h6{
+  line-height: 3.0;
+}
 .slide-track2 {
   width: calc(150px * 15);
   display: flex;

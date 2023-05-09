@@ -69,9 +69,20 @@
 .download-pdf {
   position: absolute;
   /* top: -15%; */
-  right: 30px;
-  transform: translateY(-135%);
+  right: 45px;
+  transform: translateY(-100%);
   font-size: 30px;
+  background: repeating-radial-gradient(black, transparent 100px);
+  padding-left: 2%;
+  border-radius: 15px;
+}
+.download-pdf-heading{
+  position: absolute;
+    /* top: -10%; */
+    right: 18px;
+    transform: translateY(-220%);
+    font-size: 30px;
+
 }
 
 .download-pdf a {
@@ -82,6 +93,7 @@
 
 .download-pdf a i {
   margin-right: 5px;
+  padding: 5px;
 }
 
 .refernces h6{

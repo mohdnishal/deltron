@@ -139,6 +139,7 @@
   .refernces h6{
     font-size: 13px;
   }
+  
   @keyframes scroll {
     0% {
       transform: translateX(0px);

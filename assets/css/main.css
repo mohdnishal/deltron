@@ -82,9 +82,9 @@ section {
 .section-header h2:before {
   margin: 0 15px 10px 0;
 }
-.download-pdf {
+/* .download-pdf {
   position: absolute;
-  /* top: -15%; */
+
   right: 45px;
   transform: translateY(-100%);
   font-size: 30px;
@@ -94,7 +94,6 @@ section {
 }
 .download-pdf-heading{
   position: absolute;
-    /* top: -10%; */
     right: 18px;
     transform: translateY(-220%);
     font-size: 30px;
@@ -109,6 +108,53 @@ section {
 
 .download-pdf a i {
   margin-right: 5px;
+} */
+/* .download-pdf {
+  margin-top: 10px;
+}
+
+.download-pdf-heading,
+.download-pdf {
+  display: flex;
+  align-items: center;
+}
+
+.download-pdf-heading h6,
+.download-pdf h6 {
+  margin: 0;
+} */
+
+/* .download-pdf a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff8f8;
+}
+
+.download-pdf a:hover {
+  color: #fafafa;
+} */
+.brochure{
+  background-color: #000;
+  height: 60px;
+}
+.btn-special{
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 50px;
+}
+.btn-special:hover{
+  color: red;
+  text-decoration: underline;
+}
+.icon-btn{
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.bi-download {
+  margin-left: 5px;
 }
 
 .section-header h2:after {
@@ -2616,16 +2662,84 @@ section {
 --------------------------------------------------------------*/
 .footer {
   color: #fff;
-  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background-color: #191917;
+  /* background: url("../img/footer-bg.jpg") top center no-repeat; */
   background-size: cover;
   font-size: 14px;
-  padding: 80px 0 60px 0;
+  padding: 30px 0 20px 0;
   position: relative;
 }
+footer .wrapper{
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.flogo{
+  margin-bottom: 65px;
+    width: 150px;
+    display: inline-block;
+}
+.footerNav{
+  margin-bottom: 72px;
+}
+.clearfixer{
+  display: block;
+}
+.footerNav{
+  color: #fff;
+}
+.footerNav a,.socialFooter a,.footerAddress a{
+    padding: 0px 3%;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+}
+.sites{
+  font-size: 16px;
+  font-weight: 600;
+}
+.sites:hover{
+  cursor: pointer;
+  color: #e70323;
+  text-decoration: underline;
+}
+.socialFooter{
+  display: flex;
+  justify-content: center;
+  
+}
+.footerAddress{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.footerAddress a i {
+  margin-right: 6px; /* Add a small margin on the right side of the icon */
+}
+.copyright{
+  margin-top: 20px
+}
+.credits a{
+  color: #fff;
+}
+.credits a:hover{
+  text-decoration: underline;
+  color: #e70323;
 
-.footer:before {
+}
+/* .footerAddress a{
+    font-weight: 600;
+    padding: 0px 2%;
+    color: #fff;
+} */
+.bi:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: #e70323;
+}
+/* .footer:before {
   content: "";
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.425);
   position: absolute;
   inset: 0;
 }
@@ -2723,7 +2837,7 @@ section {
 
 .footer .footer-legal .credits a {
   color: var(--color-primary);
-}
+} */
 .whatsapp-button{
   position: fixed;
    

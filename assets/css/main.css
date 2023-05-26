@@ -137,12 +137,17 @@ section {
 .brochure{
   background-color: #000;
   height: 60px;
+  justify-content: center;
+  align-items: center;
 }
 .btn-special{
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
-  margin-left: 60px;
+  /* margin-left: 55px; */
+}
+.py-4{
+  padding-top: 1rem!important;
 }
 .btn-special:hover{
   color: red;
@@ -2677,7 +2682,7 @@ footer .wrapper{
 }
 .flogo{
   margin-bottom: 65px;
-    width: 150px;
+    /* width: 150px; */
     display: inline-block;
 }
 .footerNav{

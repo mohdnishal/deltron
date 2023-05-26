@@ -314,7 +314,7 @@ section {
 .header {
   z-index: 997;
   position: sticky; 
-  /* box-shadow:wheat; */
+  box-shadow:rgba(0, 0,0, 0.24)0px 3px 8px;
   padding: 0px 0;
   top: 0;
   left: 0;
